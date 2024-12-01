@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background: #081B29;
+    width: 90%;
+    max-height: 70%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #0004;
+    
+
+.king {
+    border-radius: 10px;
+    height: 40px;
+    }
+
+
+}
+.device-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.device-form input {
+    flex-basis: 405px;
+    padding: 5px 6px;
+}
+.device-form button {
+    border-radius: 10px;
+    background: #35a4db;
+    color: #fff;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+}
+.device-form button:hover{
+    color: #c9cdc9;
+
+}
+.table {
+    max-height: 60%;
+    overflow: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #b8a6a6;
+}
+.table thead {
+    position: sticky;
+    top: 0;
+}
+table,
+table td,
+table th {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+table tr:nth-child(even) {
+    background-color: #F2F2F2;
+}
+table tr:hover {
+    background-color: #ddd;
+}
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #32ddd2;
+    color: white;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.edit-btn {
+    background: #1418E6;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+.edit-btn:hover {
+    background: #0B0D83;
+}
+.delete-btn {
+    background: #ED0915;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+.delete-btn:hover {
+    background: #AB060F;
+}
+::-webkit-scrollbar {
+    background: none;
+}
+
+.head{
+    font-family: serif;
+    color: #6b79b7;
+
+}
+
+.king1{
+    margin-top: 20px;
+    color:#0B0D83;
+    height: 50px;
+    width: 190px;
+    background-color: #d6af21;
+}
+
+
+
+
+
+
+
